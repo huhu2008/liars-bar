@@ -1,0 +1,15 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+await p.goto('http://localhost:5183/?turn=2000', { waitUntil: 'networkidle' });
+await p.getByRole('button', { name: /入座/ }).click();
+await p.waitForSelector('canvas');
+await p.waitForFunction(() => !!window.__STORE__);
+await p.waitForTimeout(14000);
+const v = await p.evaluate(() => (window.__VOICE__ || []).map(x => x.text));
+const open = v.filter(t => /晚上好|谁先开口|俺不骗人|看看你们的表情|就一句/.test(t));
+console.log('开局台词:', open.length, open);
+console.log('错误:', errs.length ? errs[0] : '无');
+await b.close();

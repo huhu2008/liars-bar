@@ -1,0 +1,15 @@
+{
+  "appId": "com.liarsbar.game",
+  "appName": "骗子酒馆",
+  "webDir": "apps/web/dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#0d0806"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

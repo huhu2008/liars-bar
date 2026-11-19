@@ -1,0 +1,13 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+await p.goto('http://localhost:5183/?turn=60000', { waitUntil: 'networkidle' });
+await p.waitForTimeout(1200);
+await p.getByRole('button', { name: /狐.*狡狐/ }).first().click();
+await p.waitForTimeout(400);
+await p.getByRole('button', { name: /入座/ }).first().click();
+await p.waitForSelector('canvas');
+await p.waitForFunction(() => !!window.__STORE__);
+await p.waitForTimeout(10000);
+console.log('模型调试:', JSON.stringify(await p.evaluate(() => window.__MDBG__ ?? []), null, 1));
+await b.close();

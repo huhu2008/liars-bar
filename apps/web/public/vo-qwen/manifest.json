@@ -1,0 +1,3554 @@
+{
+ "fox_round_0_2": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16997,
+  "at": "2026-11-13 09:40:29"
+ },
+ "fox_round_0_3": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 17468,
+  "at": "2026-11-13 09:40:33"
+ },
+ "fox_round_0_4": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 17468,
+  "at": "2026-11-13 09:40:35"
+ },
+ "fox_round_0_5": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 17938,
+  "at": "2026-11-13 09:40:37"
+ },
+ "fox_round_0_6": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16997,
+  "at": "2026-11-13 09:40:39"
+ },
+ "fox_round_0_7": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16997,
+  "at": "2026-11-13 09:40:41"
+ },
+ "fox_round_0_8": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16684,
+  "at": "2026-11-13 09:40:43"
+ },
+ "fox_round_0_9": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16684,
+  "at": "2026-11-13 09:40:46"
+ },
+ "fox_round_0_10": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 19662,
+  "at": "2026-11-13 09:40:49"
+ },
+ "fox_round_0_J": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16214,
+  "at": "2026-11-13 09:40:52"
+ },
+ "fox_round_0_Q": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 18408,
+  "at": "2026-11-13 09:40:55"
+ },
+ "fox_round_0_K": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16684,
+  "at": "2026-11-13 09:40:59"
+ },
+ "fox_round_0_A": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16214,
+  "at": "2026-11-13 09:41:02"
+ },
+ "fox_round_1_2": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:41:05"
+ },
+ "fox_round_1_3": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14019,
+  "at": "2026-11-13 09:41:07"
+ },
+ "fox_round_1_4": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 15273,
+  "at": "2026-11-13 09:41:10"
+ },
+ "fox_round_1_5": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 16997,
+  "at": "2026-11-13 09:41:13"
+ },
+ "fox_round_1_6": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 15273,
+  "at": "2026-11-13 09:41:15"
+ },
+ "fox_round_1_7": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 15743,
+  "at": "2026-11-13 09:41:18"
+ },
+ "fox_round_1_8": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14019,
+  "at": "2026-11-13 09:41:20"
+ },
+ "fox_round_1_9": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 15743,
+  "at": "2026-11-13 09:41:22"
+ },
+ "fox_round_1_10": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 17938,
+  "at": "2026-11-13 09:41:26"
+ },
+ "fox_round_1_J": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:41:28"
+ },
+ "fox_round_1_Q": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:41:30"
+ },
+ "fox_round_1_K": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:41:32"
+ },
+ "fox_round_1_A": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14960,
+  "at": "2026-11-13 09:41:34"
+ },
+ "fox_play_0_2": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 13549,
+  "at": "2026-11-13 09:41:36"
+ },
+ "fox_play_0_3": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:41:39"
+ },
+ "fox_play_0_4": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 14019,
+  "at": "2026-11-13 09:41:41"
+ },
+ "fox_play_0_5": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 14019,
+  "at": "2026-11-13 09:41:44"
+ },
+ "fox_play_0_6": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 13079,
+  "at": "2026-11-13 09:41:46"
+ },
+ "fox_play_0_7": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 14960,
+  "at": "2026-11-13 09:41:48"
+ },
+ "fox_play_0_8": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 14019,
+  "at": "2026-11-13 09:41:50"
+ },
+ "fox_play_0_9": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 13079,
+  "at": "2026-11-13 09:41:54"
+ },
+ "fox_play_0_10": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 13,
+  "bytes": 14019,
+  "at": "2026-11-13 09:41:56"
+ },
+ "fox_play_0_J": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 13549,
+  "at": "2026-11-13 09:41:58"
+ },
+ "fox_play_0_Q": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:42:01"
+ },
+ "fox_play_0_K": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 13079,
+  "at": "2026-11-13 09:42:03"
+ },
+ "fox_play_0_A": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 13549,
+  "at": "2026-11-13 09:42:06"
+ },
+ "fox_play_2": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 11,
+  "bytes": 12766,
+  "at": "2026-11-13 09:42:52"
+ },
+ "fox_challenge_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.254,
+  "instruction": "短促，质问。",
+  "chars": 7,
+  "bytes": 9317,
+  "at": "2026-11-13 09:42:54"
+ },
+ "fox_challenge_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.254,
+  "instruction": "短促，质问。",
+  "chars": 9,
+  "bytes": 11198,
+  "at": "2026-11-13 09:42:56"
+ },
+ "fox_challenge_2": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.254,
+  "instruction": "短促，质问。",
+  "chars": 2,
+  "bytes": 3988,
+  "at": "2026-11-13 09:42:58"
+ },
+ "fox_truth_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.045,
+  "instruction": "松弛，略带得意。",
+  "chars": 13,
+  "bytes": 14333,
+  "at": "2026-11-13 09:43:01"
+ },
+ "fox_truth_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.045,
+  "instruction": "松弛，略带得意。",
+  "chars": 9,
+  "bytes": 17938,
+  "at": "2026-11-13 09:43:03"
+ },
+ "fox_lie_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.188,
+  "instruction": "懊恼，带情绪。",
+  "chars": 12,
+  "bytes": 12295,
+  "at": "2026-11-13 09:43:07"
+ },
+ "fox_lie_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.188,
+  "instruction": "懊恼，带情绪。",
+  "chars": 11,
+  "bytes": 13863,
+  "at": "2026-11-13 09:43:09"
+ },
+ "fox_bang_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "虚弱，气声。",
+  "chars": 8,
+  "bytes": 14019,
+  "at": "2026-11-13 09:43:16"
+ },
+ "fox_win_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 0.968,
+  "instruction": "疲惫，低沉。",
+  "chars": 10,
+  "bytes": 16841,
+  "at": "2026-11-13 09:43:20"
+ },
+ "boar_round_0_2": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 17938,
+  "at": "2026-11-13 09:46:19"
+ },
+ "boar_round_0_3": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 19975,
+  "at": "2026-11-13 09:46:22"
+ },
+ "boar_round_0_4": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 20916,
+  "at": "2026-11-13 09:46:25"
+ },
+ "boar_round_0_5": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 18878,
+  "at": "2026-11-13 09:46:27"
+ },
+ "boar_round_0_6": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 17468,
+  "at": "2026-11-13 09:46:29"
+ },
+ "boar_round_0_7": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 19975,
+  "at": "2026-11-13 09:46:32"
+ },
+ "boar_round_0_8": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 21386,
+  "at": "2026-11-13 09:46:35"
+ },
+ "boar_round_0_9": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 18878,
+  "at": "2026-11-13 09:46:37"
+ },
+ "boar_round_0_10": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 17938,
+  "at": "2026-11-13 09:46:40"
+ },
+ "boar_round_0_J": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 17938,
+  "at": "2026-11-13 09:46:42"
+ },
+ "boar_round_0_Q": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 20916,
+  "at": "2026-11-13 09:46:45"
+ },
+ "boar_round_0_K": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 18408,
+  "at": "2026-11-13 09:46:49"
+ },
+ "boar_round_0_A": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 19348,
+  "at": "2026-11-13 09:46:51"
+ },
+ "boar_round_1_2": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 13392,
+  "at": "2026-11-13 09:46:54"
+ },
+ "boar_round_1_3": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 15430,
+  "at": "2026-11-13 09:46:56"
+ },
+ "boar_round_1_4": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14960,
+  "at": "2026-11-13 09:46:59"
+ },
+ "boar_round_1_5": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 13392,
+  "at": "2026-11-13 09:47:01"
+ },
+ "boar_round_1_6": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 15430,
+  "at": "2026-11-13 09:47:04"
+ },
+ "boar_round_1_7": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14960,
+  "at": "2026-11-13 09:47:06"
+ },
+ "boar_round_1_8": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:47:10"
+ },
+ "boar_round_1_9": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 13863,
+  "at": "2026-11-13 09:47:12"
+ },
+ "boar_round_1_10": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 15430,
+  "at": "2026-11-13 09:47:14"
+ },
+ "boar_round_1_J": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:47:17"
+ },
+ "boar_round_1_Q": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14960,
+  "at": "2026-11-13 09:47:20"
+ },
+ "boar_round_1_K": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 14490,
+  "at": "2026-11-13 09:47:22"
+ },
+ "boar_round_1_A": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "平淡，陈述。",
+  "chars": 12,
+  "bytes": 13863,
+  "at": "2026-11-13 09:47:25"
+ },
+ "boar_play_0_2": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:47:28"
+ },
+ "boar_play_0_3": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:47:31"
+ },
+ "boar_play_0_4": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:47:34"
+ },
+ "boar_play_0_5": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12452,
+  "at": "2026-11-13 09:47:37"
+ },
+ "boar_play_0_6": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12922,
+  "at": "2026-11-13 09:47:39"
+ },
+ "boar_play_0_7": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13863,
+  "at": "2026-11-13 09:47:42"
+ },
+ "boar_play_0_8": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12452,
+  "at": "2026-11-13 09:47:44"
+ },
+ "boar_play_0_9": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12922,
+  "at": "2026-11-13 09:47:46"
+ },
+ "boar_play_0_10": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 11,
+  "bytes": 14490,
+  "at": "2026-11-13 09:47:49"
+ },
+ "boar_play_0_J": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13863,
+  "at": "2026-11-13 09:47:52"
+ },
+ "boar_play_0_Q": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:47:54"
+ },
+ "boar_play_0_K": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12922,
+  "at": "2026-11-13 09:47:56"
+ },
+ "boar_play_0_A": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12922,
+  "at": "2026-11-13 09:47:58"
+ },
+ "boar_play_1_2": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 14960,
+  "at": "2026-11-13 09:48:02"
+ },
+ "boar_play_1_3": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 16370,
+  "at": "2026-11-13 09:48:04"
+ },
+ "boar_play_1_4": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 16841,
+  "at": "2026-11-13 09:48:06"
+ },
+ "boar_play_1_5": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 14490,
+  "at": "2026-11-13 09:48:09"
+ },
+ "boar_play_1_6": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 14490,
+  "at": "2026-11-13 09:48:11"
+ },
+ "boar_play_1_7": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 14960,
+  "at": "2026-11-13 09:48:14"
+ },
+ "boar_play_1_8": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 14490,
+  "at": "2026-11-13 09:48:16"
+ },
+ "boar_play_1_9": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 14490,
+  "at": "2026-11-13 09:48:19"
+ },
+ "boar_play_1_10": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 14960,
+  "at": "2026-11-13 09:48:21"
+ },
+ "boar_play_1_J": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 13392,
+  "at": "2026-11-13 09:48:24"
+ },
+ "boar_play_1_Q": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 15430,
+  "at": "2026-11-13 09:48:27"
+ },
+ "boar_play_1_K": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 15430,
+  "at": "2026-11-13 09:48:30"
+ },
+ "boar_play_1_A": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 9,
+  "bytes": 15900,
+  "at": "2026-11-13 09:48:32"
+ },
+ "boar_challenge_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.094,
+  "instruction": "短促，质问。",
+  "chars": 6,
+  "bytes": 7123,
+  "at": "2026-11-13 09:48:34"
+ },
+ "boar_challenge_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.094,
+  "instruction": "短促，质问。",
+  "chars": 6,
+  "bytes": 8847,
+  "at": "2026-11-13 09:48:37"
+ },
+ "boar_truth_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.912,
+  "instruction": "松弛，略带得意。",
+  "chars": 8,
+  "bytes": 14646,
+  "at": "2026-11-13 09:48:40"
+ },
+ "boar_truth_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.912,
+  "instruction": "松弛，略带得意。",
+  "chars": 5,
+  "bytes": 8534,
+  "at": "2026-11-13 09:48:42"
+ },
+ "boar_lie_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.037,
+  "instruction": "懊恼，带情绪。",
+  "chars": 8,
+  "bytes": 13079,
+  "at": "2026-11-13 09:48:45"
+ },
+ "boar_lie_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.037,
+  "instruction": "懊恼，带情绪。",
+  "chars": 14,
+  "bytes": 15743,
+  "at": "2026-11-13 09:48:48"
+ },
+ "boar_empty_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.864,
+  "instruction": "松一口气，带喘息。",
+  "chars": 7,
+  "bytes": 18095,
+  "at": "2026-11-13 09:48:51"
+ },
+ "boar_empty_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.864,
+  "instruction": "松一口气，带喘息。",
+  "chars": 9,
+  "bytes": 16527,
+  "at": "2026-11-13 09:48:53"
+ },
+ "boar_bang_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "虚弱，气声。",
+  "chars": 10,
+  "bytes": 15587,
+  "at": "2026-11-13 09:48:56"
+ },
+ "boar_win_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.845,
+  "instruction": "疲惫，低沉。",
+  "chars": 8,
+  "bytes": 17938,
+  "at": "2026-11-13 09:48:59"
+ },
+ "raven_round_0_2": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 4615,
+  "at": "2026-11-13 09:43:48"
+ },
+ "raven_round_0_3": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 7437,
+  "at": "2026-11-13 09:43:50"
+ },
+ "raven_round_0_4": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:43:52"
+ },
+ "raven_round_0_5": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5712,
+  "at": "2026-11-13 09:43:54"
+ },
+ "raven_round_0_6": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 4615,
+  "at": "2026-11-13 09:43:57"
+ },
+ "raven_round_0_7": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:43:59"
+ },
+ "raven_round_0_8": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:44:01"
+ },
+ "raven_round_0_9": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5712,
+  "at": "2026-11-13 09:44:03"
+ },
+ "raven_round_0_10": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 3,
+  "bytes": 6339,
+  "at": "2026-11-13 09:44:05"
+ },
+ "raven_round_0_J": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:44:08"
+ },
+ "raven_round_0_Q": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 5712,
+  "at": "2026-11-13 09:44:10"
+ },
+ "raven_round_0_K": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 7437,
+  "at": "2026-11-13 09:44:12"
+ },
+ "raven_round_0_A": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 2,
+  "bytes": 6339,
+  "at": "2026-11-13 09:44:14"
+ },
+ "raven_round_1_2": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 16370,
+  "at": "2026-11-13 09:44:16"
+ },
+ "raven_round_1_3": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 17468,
+  "at": "2026-11-13 09:44:18"
+ },
+ "raven_round_1_4": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 16841,
+  "at": "2026-11-13 09:44:21"
+ },
+ "raven_round_1_5": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 17468,
+  "at": "2026-11-13 09:44:24"
+ },
+ "raven_round_1_6": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 15743,
+  "at": "2026-11-13 09:44:26"
+ },
+ "raven_round_1_7": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 18565,
+  "at": "2026-11-13 09:44:28"
+ },
+ "raven_round_1_8": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 17468,
+  "at": "2026-11-13 09:44:31"
+ },
+ "raven_round_1_9": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 16841,
+  "at": "2026-11-13 09:44:33"
+ },
+ "raven_round_1_10": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 10,
+  "bytes": 16370,
+  "at": "2026-11-13 09:44:37"
+ },
+ "raven_round_1_J": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 18095,
+  "at": "2026-11-13 09:44:39"
+ },
+ "raven_round_1_Q": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 17468,
+  "at": "2026-11-13 09:44:41"
+ },
+ "raven_round_1_K": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 15273,
+  "at": "2026-11-13 09:44:43"
+ },
+ "raven_round_1_A": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 16841,
+  "at": "2026-11-13 09:44:46"
+ },
+ "raven_play_0_2": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 3988,
+  "at": "2026-11-13 09:44:48"
+ },
+ "raven_play_0_3": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 6339,
+  "at": "2026-11-13 09:44:50"
+ },
+ "raven_play_0_4": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5712,
+  "at": "2026-11-13 09:44:52"
+ },
+ "raven_play_0_5": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:44:54"
+ },
+ "raven_play_0_6": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:44:56"
+ },
+ "raven_play_0_7": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5712,
+  "at": "2026-11-13 09:44:59"
+ },
+ "raven_play_0_8": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 4615,
+  "at": "2026-11-13 09:45:00"
+ },
+ "raven_play_0_9": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:45:02"
+ },
+ "raven_play_0_10": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 3,
+  "bytes": 6339,
+  "at": "2026-11-13 09:45:04"
+ },
+ "raven_play_0_J": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5242,
+  "at": "2026-11-13 09:45:07"
+ },
+ "raven_play_0_Q": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 6339,
+  "at": "2026-11-13 09:45:09"
+ },
+ "raven_play_0_K": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 5712,
+  "at": "2026-11-13 09:45:11"
+ },
+ "raven_play_0_A": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 2,
+  "bytes": 4615,
+  "at": "2026-11-13 09:45:13"
+ },
+ "raven_play_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 7437,
+  "at": "2026-11-13 09:45:15"
+ },
+ "raven_challenge_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.958,
+  "instruction": "短促，质问。",
+  "chars": 2,
+  "bytes": 4145,
+  "at": "2026-11-13 09:45:17"
+ },
+ "raven_challenge_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.958,
+  "instruction": "短促，质问。",
+  "chars": 2,
+  "bytes": 4145,
+  "at": "2026-11-13 09:45:20"
+ },
+ "raven_truth_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.798,
+  "instruction": "松弛，略带得意。",
+  "chars": 3,
+  "bytes": 9631,
+  "at": "2026-11-13 09:45:23"
+ },
+ "raven_truth_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.798,
+  "instruction": "松弛，略带得意。",
+  "chars": 8,
+  "bytes": 13863,
+  "at": "2026-11-13 09:45:26"
+ },
+ "raven_lie_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.907,
+  "instruction": "懊恼，带情绪。",
+  "chars": 7,
+  "bytes": 9161,
+  "at": "2026-11-13 09:45:28"
+ },
+ "raven_lie_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.907,
+  "instruction": "懊恼，带情绪。",
+  "chars": 5,
+  "bytes": 7437,
+  "at": "2026-11-13 09:45:30"
+ },
+ "raven_empty_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.756,
+  "instruction": "松一口气，带喘息。",
+  "chars": 4,
+  "bytes": 5086,
+  "at": "2026-11-13 09:45:33"
+ },
+ "raven_empty_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.756,
+  "instruction": "松一口气，带喘息。",
+  "chars": 6,
+  "bytes": 8847,
+  "at": "2026-11-13 09:45:35"
+ },
+ "raven_bang_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "虚弱，气声。",
+  "chars": 6,
+  "bytes": 5712,
+  "at": "2026-11-13 09:45:38"
+ },
+ "raven_win_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.739,
+  "instruction": "疲惫，低沉。",
+  "chars": 16,
+  "bytes": 26245,
+  "at": "2026-11-13 09:45:41"
+ },
+ "cat_round_0_2": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 20759,
+  "at": "2026-11-13 09:49:30"
+ },
+ "cat_round_0_3": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 17468,
+  "at": "2026-11-13 09:49:32"
+ },
+ "cat_round_0_4": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 16997,
+  "at": "2026-11-13 09:49:35"
+ },
+ "cat_round_0_5": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 16997,
+  "at": "2026-11-13 09:49:37"
+ },
+ "cat_round_0_6": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 17938,
+  "at": "2026-11-13 09:49:39"
+ },
+ "cat_round_0_7": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 18251,
+  "at": "2026-11-13 09:49:42"
+ },
+ "cat_round_0_8": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 16214,
+  "at": "2026-11-13 09:49:46"
+ },
+ "cat_round_0_9": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 16214,
+  "at": "2026-11-13 09:49:48"
+ },
+ "cat_round_0_10": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 16,
+  "bytes": 19192,
+  "at": "2026-11-13 09:49:50"
+ },
+ "cat_round_0_J": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 14960,
+  "at": "2026-11-13 09:49:52"
+ },
+ "cat_round_0_Q": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 16214,
+  "at": "2026-11-13 09:49:56"
+ },
+ "cat_round_0_K": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 16214,
+  "at": "2026-11-13 09:49:58"
+ },
+ "cat_round_0_A": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 15,
+  "bytes": 15743,
+  "at": "2026-11-13 09:50:00"
+ },
+ "cat_round_1_2": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 11355,
+  "at": "2026-11-13 09:50:03"
+ },
+ "cat_round_1_3": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 9317,
+  "at": "2026-11-13 09:50:06"
+ },
+ "cat_round_1_4": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 7593,
+  "at": "2026-11-13 09:50:09"
+ },
+ "cat_round_1_5": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 8063,
+  "at": "2026-11-13 09:50:12"
+ },
+ "cat_round_1_6": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 7593,
+  "at": "2026-11-13 09:50:14"
+ },
+ "cat_round_1_7": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 9788,
+  "at": "2026-11-13 09:50:16"
+ },
+ "cat_round_1_8": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 9317,
+  "at": "2026-11-13 09:50:18"
+ },
+ "cat_round_1_9": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 8534,
+  "at": "2026-11-13 09:50:20"
+ },
+ "cat_round_1_10": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 8534,
+  "at": "2026-11-13 09:50:22"
+ },
+ "cat_round_1_J": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 7280,
+  "at": "2026-11-13 09:50:24"
+ },
+ "cat_round_1_Q": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 8063,
+  "at": "2026-11-13 09:50:27"
+ },
+ "cat_round_1_K": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 8534,
+  "at": "2026-11-13 09:50:30"
+ },
+ "cat_round_1_A": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 7593,
+  "at": "2026-11-13 09:50:32"
+ },
+ "cat_play_0_2": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 10101,
+  "at": "2026-11-13 09:50:34"
+ },
+ "cat_play_0_3": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9788,
+  "at": "2026-11-13 09:50:36"
+ },
+ "cat_play_0_4": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9317,
+  "at": "2026-11-13 09:50:38"
+ },
+ "cat_play_0_5": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9788,
+  "at": "2026-11-13 09:50:40"
+ },
+ "cat_play_0_6": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 8063,
+  "at": "2026-11-13 09:50:43"
+ },
+ "cat_play_0_7": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9317,
+  "at": "2026-11-13 09:50:46"
+ },
+ "cat_play_0_8": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9788,
+  "at": "2026-11-13 09:50:49"
+ },
+ "cat_play_0_9": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 8063,
+  "at": "2026-11-13 09:50:51"
+ },
+ "cat_play_0_10": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 8,
+  "bytes": 8534,
+  "at": "2026-11-13 09:50:54"
+ },
+ "cat_play_0_J": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9317,
+  "at": "2026-11-13 09:50:55"
+ },
+ "cat_play_0_Q": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 9788,
+  "at": "2026-11-13 09:50:58"
+ },
+ "cat_play_0_K": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 8847,
+  "at": "2026-11-13 09:51:00"
+ },
+ "cat_play_0_A": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 8063,
+  "at": "2026-11-13 09:51:02"
+ },
+ "cat_play_1_2": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 11198,
+  "at": "2026-11-13 09:51:05"
+ },
+ "cat_play_1_3": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12452,
+  "at": "2026-11-13 09:51:09"
+ },
+ "cat_play_1_4": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 11198,
+  "at": "2026-11-13 09:51:12"
+ },
+ "cat_play_1_5": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12452,
+  "at": "2026-11-13 09:51:14"
+ },
+ "cat_play_1_6": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12139,
+  "at": "2026-11-13 09:51:16"
+ },
+ "cat_play_1_7": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12922,
+  "at": "2026-11-13 09:51:18"
+ },
+ "cat_play_1_8": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12139,
+  "at": "2026-11-13 09:51:21"
+ },
+ "cat_play_1_9": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12139,
+  "at": "2026-11-13 09:51:23"
+ },
+ "cat_play_1_10": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 11,
+  "bytes": 12922,
+  "at": "2026-11-13 09:51:26"
+ },
+ "cat_play_1_J": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13706,
+  "at": "2026-11-13 09:51:28"
+ },
+ "cat_play_1_Q": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:51:31"
+ },
+ "cat_play_1_K": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 12139,
+  "at": "2026-11-13 09:51:33"
+ },
+ "cat_play_1_A": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:51:36"
+ },
+ "cat_challenge_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.322,
+  "instruction": "短促，质问。",
+  "chars": 11,
+  "bytes": 12139,
+  "at": "2026-11-13 09:51:38"
+ },
+ "cat_challenge_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.322,
+  "instruction": "短促，质问。",
+  "chars": 6,
+  "bytes": 12295,
+  "at": "2026-11-13 09:51:40"
+ },
+ "cat_truth_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.102,
+  "instruction": "松弛，略带得意。",
+  "chars": 8,
+  "bytes": 11041,
+  "at": "2026-11-13 09:51:42"
+ },
+ "cat_truth_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.102,
+  "instruction": "松弛，略带得意。",
+  "chars": 7,
+  "bytes": 13549,
+  "at": "2026-11-13 09:51:44"
+ },
+ "cat_lie_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.253,
+  "instruction": "懊恼，带情绪。",
+  "chars": 9,
+  "bytes": 11668,
+  "at": "2026-11-13 09:51:46"
+ },
+ "cat_lie_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.253,
+  "instruction": "懊恼，带情绪。",
+  "chars": 9,
+  "bytes": 10571,
+  "at": "2026-11-13 09:51:48"
+ },
+ "cat_empty_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.044,
+  "instruction": "松一口气，带喘息。",
+  "chars": 6,
+  "bytes": 11512,
+  "at": "2026-11-13 09:51:51"
+ },
+ "cat_empty_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.044,
+  "instruction": "松一口气，带喘息。",
+  "chars": 5,
+  "bytes": 7593,
+  "at": "2026-11-13 09:51:53"
+ },
+ "cat_bang_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "虚弱，气声。",
+  "chars": 12,
+  "bytes": 17938,
+  "at": "2026-11-13 09:51:56"
+ },
+ "cat_win_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.021,
+  "instruction": "疲惫，低沉。",
+  "chars": 5,
+  "bytes": 6966,
+  "at": "2026-11-13 09:51:59"
+ },
+ "mage_round_0_2": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 18878,
+  "at": "2026-11-13 09:36:57"
+ },
+ "mage_round_0_3": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 19348,
+  "at": "2026-11-13 09:37:00"
+ },
+ "mage_round_0_4": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 24521,
+  "at": "2026-11-13 09:37:02"
+ },
+ "mage_round_0_5": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 20916,
+  "at": "2026-11-13 09:37:04"
+ },
+ "mage_round_0_6": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 18095,
+  "at": "2026-11-13 09:37:06"
+ },
+ "mage_round_0_7": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 23737,
+  "at": "2026-11-13 09:37:09"
+ },
+ "mage_round_0_8": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 20916,
+  "at": "2026-11-13 09:37:11"
+ },
+ "mage_round_0_9": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 17781,
+  "at": "2026-11-13 09:37:13"
+ },
+ "mage_round_0_10": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 14,
+  "bytes": 18878,
+  "at": "2026-11-13 09:37:16"
+ },
+ "mage_round_0_J": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 20132,
+  "at": "2026-11-13 09:37:18"
+ },
+ "mage_round_0_Q": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 17781,
+  "at": "2026-11-13 09:37:21"
+ },
+ "mage_round_0_K": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 18565,
+  "at": "2026-11-13 09:37:24"
+ },
+ "mage_round_0_A": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 13,
+  "bytes": 16841,
+  "at": "2026-11-13 09:37:27"
+ },
+ "mage_round_1_2": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 21699,
+  "at": "2026-11-13 09:37:29"
+ },
+ "mage_round_1_3": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 28596,
+  "at": "2026-11-13 09:37:31"
+ },
+ "mage_round_1_4": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 24050,
+  "at": "2026-11-13 09:37:35"
+ },
+ "mage_round_1_5": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 27655,
+  "at": "2026-11-13 09:37:38"
+ },
+ "mage_round_1_6": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 23737,
+  "at": "2026-11-13 09:37:40"
+ },
+ "mage_round_1_7": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 24050,
+  "at": "2026-11-13 09:37:44"
+ },
+ "mage_round_1_8": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 29379,
+  "at": "2026-11-13 09:37:48"
+ },
+ "mage_round_1_9": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 26558,
+  "at": "2026-11-13 09:37:50"
+ },
+ "mage_round_1_10": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 18,
+  "bytes": 25775,
+  "at": "2026-11-13 09:37:53"
+ },
+ "mage_round_1_J": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 23737,
+  "at": "2026-11-13 09:37:55"
+ },
+ "mage_round_1_Q": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 29379,
+  "at": "2026-11-13 09:37:58"
+ },
+ "mage_round_1_K": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 26558,
+  "at": "2026-11-13 09:38:01"
+ },
+ "mage_round_1_A": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "平淡，陈述。",
+  "chars": 17,
+  "bytes": 25775,
+  "at": "2026-11-13 09:38:05"
+ },
+ "mage_play_0_2": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17781,
+  "at": "2026-11-13 09:38:07"
+ },
+ "mage_play_0_3": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17311,
+  "at": "2026-11-13 09:38:10"
+ },
+ "mage_play_0_4": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16841,
+  "at": "2026-11-13 09:38:12"
+ },
+ "mage_play_0_5": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17781,
+  "at": "2026-11-13 09:38:15"
+ },
+ "mage_play_0_6": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17311,
+  "at": "2026-11-13 09:38:19"
+ },
+ "mage_play_0_7": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17311,
+  "at": "2026-11-13 09:38:21"
+ },
+ "mage_play_0_8": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16841,
+  "at": "2026-11-13 09:38:23"
+ },
+ "mage_play_0_9": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16841,
+  "at": "2026-11-13 09:38:26"
+ },
+ "mage_play_0_10": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 15,
+  "bytes": 17781,
+  "at": "2026-11-13 09:38:29"
+ },
+ "mage_play_0_J": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 18095,
+  "at": "2026-11-13 09:38:32"
+ },
+ "mage_play_0_Q": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16841,
+  "at": "2026-11-13 09:38:34"
+ },
+ "mage_play_0_K": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 14960,
+  "at": "2026-11-13 09:38:37"
+ },
+ "mage_play_0_A": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16527,
+  "at": "2026-11-13 09:38:41"
+ },
+ "mage_play_1_2": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 8847,
+  "at": "2026-11-13 09:38:44"
+ },
+ "mage_play_1_3": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10101,
+  "at": "2026-11-13 09:38:46"
+ },
+ "mage_play_1_4": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10101,
+  "at": "2026-11-13 09:38:49"
+ },
+ "mage_play_1_5": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10571,
+  "at": "2026-11-13 09:38:51"
+ },
+ "mage_play_1_6": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10101,
+  "at": "2026-11-13 09:38:54"
+ },
+ "mage_play_1_7": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10571,
+  "at": "2026-11-13 09:38:56"
+ },
+ "mage_play_1_8": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 9788,
+  "at": "2026-11-13 09:38:59"
+ },
+ "mage_play_1_9": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 12139,
+  "at": "2026-11-13 09:39:02"
+ },
+ "mage_play_1_10": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 10101,
+  "at": "2026-11-13 09:39:05"
+ },
+ "mage_play_1_J": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10101,
+  "at": "2026-11-13 09:39:07"
+ },
+ "mage_play_1_Q": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 11668,
+  "at": "2026-11-13 09:39:10"
+ },
+ "mage_play_1_K": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 9788,
+  "at": "2026-11-13 09:39:13"
+ },
+ "mage_play_1_A": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 10571,
+  "at": "2026-11-13 09:39:15"
+ },
+ "mage_play_2": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17311,
+  "at": "2026-11-13 09:39:18"
+ },
+ "mage_challenge_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.368,
+  "instruction": "短促，质问。",
+  "chars": 9,
+  "bytes": 10101,
+  "at": "2026-11-13 09:39:20"
+ },
+ "mage_challenge_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.368,
+  "instruction": "短促，质问。",
+  "chars": 9,
+  "bytes": 11041,
+  "at": "2026-11-13 09:39:22"
+ },
+ "mage_challenge_2": {
+  "voice": "libai_v3.1",
+  "rate": 1.368,
+  "instruction": "短促，质问。",
+  "chars": 7,
+  "bytes": 7280,
+  "at": "2026-11-13 09:39:24"
+ },
+ "mage_truth_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.14,
+  "instruction": "松弛，略带得意。",
+  "chars": 15,
+  "bytes": 20759,
+  "at": "2026-11-13 09:39:27"
+ },
+ "mage_truth_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.14,
+  "instruction": "松弛，略带得意。",
+  "chars": 11,
+  "bytes": 20289,
+  "at": "2026-11-13 09:39:29"
+ },
+ "mage_lie_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.296,
+  "instruction": "懊恼，带情绪。",
+  "chars": 8,
+  "bytes": 9161,
+  "at": "2026-11-13 09:39:31"
+ },
+ "mage_lie_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.296,
+  "instruction": "懊恼，带情绪。",
+  "chars": 9,
+  "bytes": 13549,
+  "at": "2026-11-13 09:39:32"
+ },
+ "mage_bang_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "虚弱，气声。",
+  "chars": 10,
+  "bytes": 26245,
+  "at": "2026-11-13 09:39:41"
+ },
+ "mage_win_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.056,
+  "instruction": "疲惫，低沉。",
+  "chars": 13,
+  "bytes": 21856,
+  "at": "2026-11-13 09:39:43"
+ },
+ "mage_lastCard_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.26,
+  "instruction": "压低声音，挑衅。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:39:45"
+ },
+ "mage_lastCard_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.26,
+  "instruction": "压低声音，挑衅。",
+  "chars": 15,
+  "bytes": 19662,
+  "at": "2026-11-13 09:39:48"
+ },
+ "mage_cornered_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.32,
+  "instruction": "硬撑，逞强。",
+  "chars": 12,
+  "bytes": 15117,
+  "at": "2026-11-13 09:39:52"
+ },
+ "mage_cornered_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.32,
+  "instruction": "硬撑，逞强。",
+  "chars": 5,
+  "bytes": 11041,
+  "at": "2026-11-13 09:39:56"
+ },
+ "mage_grudge_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.104,
+  "instruction": "阴沉，缓慢。",
+  "chars": 12,
+  "bytes": 28909,
+  "at": "2026-11-13 09:39:58"
+ },
+ "mage_grudge_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.104,
+  "instruction": "阴沉，缓慢。",
+  "chars": 13,
+  "bytes": 37373,
+  "at": "2026-11-13 09:40:02"
+ },
+ "mage_witness_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.14,
+  "instruction": "压低，克制。",
+  "chars": 12,
+  "bytes": 18565,
+  "at": "2026-11-13 09:40:04"
+ },
+ "mage_witness_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.14,
+  "instruction": "压低，克制。",
+  "chars": 10,
+  "bytes": 20759,
+  "at": "2026-11-13 09:40:07"
+ },
+ "mage_opening_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.14,
+  "instruction": "从容，随意。",
+  "chars": 14,
+  "bytes": 21543,
+  "at": "2026-11-13 09:40:09"
+ },
+ "mage_tension_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.296,
+  "instruction": "催促，提高音量。",
+  "chars": 12,
+  "bytes": 13549,
+  "at": "2026-11-13 09:40:12"
+ },
+ "mage_duel_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.08,
+  "instruction": "严肃，放慢。",
+  "chars": 14,
+  "bytes": 34238,
+  "at": "2026-11-13 09:40:14"
+ },
+ "mage_duel_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.08,
+  "instruction": "严肃，放慢。",
+  "chars": 10,
+  "bytes": 25304,
+  "at": "2026-11-13 09:40:18"
+ },
+ "rogue_round_0_2": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 14803,
+  "at": "2026-11-13 09:52:32"
+ },
+ "rogue_round_0_3": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 14803,
+  "at": "2026-11-13 09:52:36"
+ },
+ "rogue_round_0_4": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 15743,
+  "at": "2026-11-13 09:52:39"
+ },
+ "rogue_round_0_5": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 14803,
+  "at": "2026-11-13 09:52:44"
+ },
+ "rogue_round_0_6": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 19192,
+  "at": "2026-11-13 09:52:47"
+ },
+ "rogue_round_0_7": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 14333,
+  "at": "2026-11-13 09:52:50"
+ },
+ "rogue_round_0_8": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 16684,
+  "at": "2026-11-13 09:52:53"
+ },
+ "rogue_round_0_9": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 15273,
+  "at": "2026-11-13 09:52:55"
+ },
+ "rogue_round_0_10": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 8,
+  "bytes": 16214,
+  "at": "2026-11-13 09:52:57"
+ },
+ "rogue_round_0_J": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 14333,
+  "at": "2026-11-13 09:53:00"
+ },
+ "rogue_round_0_Q": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 16684,
+  "at": "2026-11-13 09:53:03"
+ },
+ "rogue_round_0_K": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 15273,
+  "at": "2026-11-13 09:53:06"
+ },
+ "rogue_round_0_A": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 7,
+  "bytes": 15273,
+  "at": "2026-11-13 09:53:08"
+ },
+ "rogue_round_1_2": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 14333,
+  "at": "2026-11-13 09:53:10"
+ },
+ "rogue_round_1_3": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 12922,
+  "at": "2026-11-13 09:53:13"
+ },
+ "rogue_round_1_4": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 12452,
+  "at": "2026-11-13 09:53:15"
+ },
+ "rogue_round_1_5": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 17311,
+  "at": "2026-11-13 09:53:17"
+ },
+ "rogue_round_1_6": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 17311,
+  "at": "2026-11-13 09:53:19"
+ },
+ "rogue_round_1_7": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 13863,
+  "at": "2026-11-13 09:53:22"
+ },
+ "rogue_round_1_8": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 12452,
+  "at": "2026-11-13 09:53:25"
+ },
+ "rogue_round_1_9": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 13392,
+  "at": "2026-11-13 09:53:28"
+ },
+ "rogue_round_1_10": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 10,
+  "bytes": 13392,
+  "at": "2026-11-13 09:53:30"
+ },
+ "rogue_round_1_J": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 16214,
+  "at": "2026-11-13 09:53:32"
+ },
+ "rogue_round_1_Q": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 12922,
+  "at": "2026-11-13 09:53:35"
+ },
+ "rogue_round_1_K": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 13863,
+  "at": "2026-11-13 09:53:38"
+ },
+ "rogue_round_1_A": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "平淡，陈述。",
+  "chars": 9,
+  "bytes": 13863,
+  "at": "2026-11-13 09:53:41"
+ },
+ "rogue_play_0_2": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 9317,
+  "at": "2026-11-13 09:53:44"
+ },
+ "rogue_play_0_3": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 9317,
+  "at": "2026-11-13 09:53:46"
+ },
+ "rogue_play_0_4": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 8220,
+  "at": "2026-11-13 09:53:48"
+ },
+ "rogue_play_0_5": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 9788,
+  "at": "2026-11-13 09:53:50"
+ },
+ "rogue_play_0_6": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 9317,
+  "at": "2026-11-13 09:53:53"
+ },
+ "rogue_play_0_7": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 7750,
+  "at": "2026-11-13 09:53:55"
+ },
+ "rogue_play_0_8": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 8220,
+  "at": "2026-11-13 09:53:56"
+ },
+ "rogue_play_0_9": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 9317,
+  "at": "2026-11-13 09:53:58"
+ },
+ "rogue_play_0_10": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 6,
+  "bytes": 8847,
+  "at": "2026-11-13 09:54:01"
+ },
+ "rogue_play_0_J": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 8847,
+  "at": "2026-11-13 09:54:03"
+ },
+ "rogue_play_0_Q": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 10258,
+  "at": "2026-11-13 09:54:05"
+ },
+ "rogue_play_0_K": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 8220,
+  "at": "2026-11-13 09:54:07"
+ },
+ "rogue_play_0_A": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 5,
+  "bytes": 8220,
+  "at": "2026-11-13 09:54:09"
+ },
+ "rogue_play_1_2": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:54:12"
+ },
+ "rogue_play_1_3": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:54:15"
+ },
+ "rogue_play_1_4": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 17311,
+  "at": "2026-11-13 09:54:18"
+ },
+ "rogue_play_1_5": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16684,
+  "at": "2026-11-13 09:54:20"
+ },
+ "rogue_play_1_6": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 15743,
+  "at": "2026-11-13 09:54:22"
+ },
+ "rogue_play_1_7": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16684,
+  "at": "2026-11-13 09:54:24"
+ },
+ "rogue_play_1_8": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 17311,
+  "at": "2026-11-13 09:54:27"
+ },
+ "rogue_play_1_9": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:54:30"
+ },
+ "rogue_play_1_10": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 13,
+  "bytes": 18251,
+  "at": "2026-11-13 09:54:33"
+ },
+ "rogue_play_1_J": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:54:35"
+ },
+ "rogue_play_1_Q": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 17311,
+  "at": "2026-11-13 09:54:38"
+ },
+ "rogue_play_1_K": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 16214,
+  "at": "2026-11-13 09:54:40"
+ },
+ "rogue_play_1_A": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 12,
+  "bytes": 17311,
+  "at": "2026-11-13 09:54:43"
+ },
+ "rogue_play_2": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 7,
+  "bytes": 12452,
+  "at": "2026-11-13 09:54:45"
+ },
+ "rogue_challenge_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.14,
+  "instruction": "短促，质问。",
+  "chars": 5,
+  "bytes": 6496,
+  "at": "2026-11-13 09:54:47"
+ },
+ "rogue_challenge_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.14,
+  "instruction": "短促，质问。",
+  "chars": 6,
+  "bytes": 6496,
+  "at": "2026-11-13 09:54:50"
+ },
+ "rogue_challenge_2": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.14,
+  "instruction": "短促，质问。",
+  "chars": 3,
+  "bytes": 4772,
+  "at": "2026-11-13 09:54:51"
+ },
+ "rogue_truth_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.95,
+  "instruction": "松弛，略带得意。",
+  "chars": 5,
+  "bytes": 8534,
+  "at": "2026-11-13 09:54:54"
+ },
+ "rogue_truth_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.95,
+  "instruction": "松弛，略带得意。",
+  "chars": 13,
+  "bytes": 20132,
+  "at": "2026-11-13 09:54:57"
+ },
+ "rogue_lie_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.08,
+  "instruction": "懊恼，带情绪。",
+  "chars": 8,
+  "bytes": 10885,
+  "at": "2026-11-13 09:54:59"
+ },
+ "rogue_lie_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.08,
+  "instruction": "懊恼，带情绪。",
+  "chars": 7,
+  "bytes": 14019,
+  "at": "2026-11-13 09:55:01"
+ },
+ "rogue_bang_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "虚弱，气声。",
+  "chars": 8,
+  "bytes": 13079,
+  "at": "2026-11-13 09:55:09"
+ },
+ "rogue_win_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.88,
+  "instruction": "疲惫，低沉。",
+  "chars": 11,
+  "bytes": 27028,
+  "at": "2026-11-13 09:55:11"
+ },
+ "rogue_lastCard_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.05,
+  "instruction": "压低声音，挑衅。",
+  "chars": 8,
+  "bytes": 17781,
+  "at": "2026-11-13 09:55:13"
+ },
+ "rogue_lastCard_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.05,
+  "instruction": "压低声音，挑衅。",
+  "chars": 10,
+  "bytes": 19192,
+  "at": "2026-11-13 09:55:15"
+ },
+ "rogue_cornered_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.1,
+  "instruction": "硬撑，逞强。",
+  "chars": 6,
+  "bytes": 11355,
+  "at": "2026-11-13 09:55:18"
+ },
+ "rogue_cornered_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.1,
+  "instruction": "硬撑，逞强。",
+  "chars": 3,
+  "bytes": 4615,
+  "at": "2026-11-13 09:55:20"
+ },
+ "rogue_grudge_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.92,
+  "instruction": "阴沉，缓慢。",
+  "chars": 12,
+  "bytes": 35335,
+  "at": "2026-11-13 09:55:23"
+ },
+ "rogue_grudge_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.92,
+  "instruction": "阴沉，缓慢。",
+  "chars": 6,
+  "bytes": 15743,
+  "at": "2026-11-13 09:55:25"
+ },
+ "rogue_witness_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.95,
+  "instruction": "压低，克制。",
+  "chars": 10,
+  "bytes": 15117,
+  "at": "2026-11-13 09:55:27"
+ },
+ "rogue_witness_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.95,
+  "instruction": "压低，克制。",
+  "chars": 9,
+  "bytes": 14333,
+  "at": "2026-11-13 09:55:29"
+ },
+ "rogue_opening_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.95,
+  "instruction": "从容，随意。",
+  "chars": 17,
+  "bytes": 25148,
+  "at": "2026-11-13 09:55:32"
+ },
+ "rogue_tension_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.08,
+  "instruction": "催促，提高音量。",
+  "chars": 12,
+  "bytes": 14646,
+  "at": "2026-11-13 09:55:34"
+ },
+ "rogue_duel_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.9,
+  "instruction": "严肃，放慢。",
+  "chars": 12,
+  "bytes": 47247,
+  "at": "2026-11-13 09:55:37"
+ },
+ "rogue_duel_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.9,
+  "instruction": "严肃，放慢。",
+  "chars": 9,
+  "bytes": 27028,
+  "at": "2026-11-13 09:55:39"
+ },
+ "fox_play_1_2": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 14960,
+  "at": "2026-11-13 09:42:08"
+ },
+ "fox_play_1_3": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 14960,
+  "at": "2026-11-13 09:42:11"
+ },
+ "fox_play_1_4": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15273,
+  "at": "2026-11-13 09:42:15"
+ },
+ "fox_play_1_5": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 17468,
+  "at": "2026-11-13 09:42:18"
+ },
+ "fox_play_1_6": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16214,
+  "at": "2026-11-13 09:42:22"
+ },
+ "fox_play_1_7": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15743,
+  "at": "2026-11-13 09:42:24"
+ },
+ "fox_play_1_8": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15273,
+  "at": "2026-11-13 09:42:26"
+ },
+ "fox_play_1_9": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 16214,
+  "at": "2026-11-13 09:42:29"
+ },
+ "fox_play_1_10": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 15,
+  "bytes": 16684,
+  "at": "2026-11-13 09:42:31"
+ },
+ "fox_play_1_J": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15273,
+  "at": "2026-11-13 09:42:35"
+ },
+ "fox_play_1_Q": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15273,
+  "at": "2026-11-13 09:42:38"
+ },
+ "fox_play_1_K": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15273,
+  "at": "2026-11-13 09:42:42"
+ },
+ "fox_play_1_A": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "笃定，像在陈述事实。",
+  "chars": 14,
+  "bytes": 15743,
+  "at": "2026-11-13 09:42:48"
+ },
+ "fox_empty_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 0.99,
+  "instruction": "松一口气，带喘息。",
+  "chars": 8,
+  "bytes": 17938,
+  "at": "2026-11-13 09:43:11"
+ },
+ "fox_empty_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 0.99,
+  "instruction": "松一口气，带喘息。",
+  "chars": 7,
+  "bytes": 10101,
+  "at": "2026-11-13 09:43:14"
+ },
+ "fox_lastCard_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.155,
+  "instruction": "压低声音，挑衅。",
+  "chars": 14,
+  "bytes": 16684,
+  "at": "2026-11-13 09:43:22"
+ },
+ "fox_lastCard_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.155,
+  "instruction": "压低声音，挑衅。",
+  "chars": 9,
+  "bytes": 14176,
+  "at": "2026-11-13 09:43:24"
+ },
+ "fox_cornered_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.21,
+  "instruction": "硬撑，逞强。",
+  "chars": 6,
+  "bytes": 8534,
+  "at": "2026-11-13 09:43:26"
+ },
+ "fox_cornered_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.21,
+  "instruction": "硬撑，逞强。",
+  "chars": 12,
+  "bytes": 11198,
+  "at": "2026-11-13 09:43:28"
+ },
+ "fox_grudge_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.012,
+  "instruction": "阴沉，缓慢。",
+  "chars": 9,
+  "bytes": 20916,
+  "at": "2026-11-13 09:43:31"
+ },
+ "fox_grudge_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.012,
+  "instruction": "阴沉，缓慢。",
+  "chars": 11,
+  "bytes": 22013,
+  "at": "2026-11-13 09:43:33"
+ },
+ "fox_witness_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.045,
+  "instruction": "压低，克制。",
+  "chars": 10,
+  "bytes": 14333,
+  "at": "2026-11-13 09:43:35"
+ },
+ "fox_witness_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.045,
+  "instruction": "压低，克制。",
+  "chars": 11,
+  "bytes": 12609,
+  "at": "2026-11-13 09:43:37"
+ },
+ "fox_opening_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.045,
+  "instruction": "从容，随意。",
+  "chars": 17,
+  "bytes": 19348,
+  "at": "2026-11-13 09:43:39"
+ },
+ "fox_tension_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.188,
+  "instruction": "催促，提高音量。",
+  "chars": 14,
+  "bytes": 14176,
+  "at": "2026-11-13 09:43:42"
+ },
+ "fox_duel_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 0.99,
+  "instruction": "严肃，放慢。",
+  "chars": 15,
+  "bytes": 23267,
+  "at": "2026-11-13 09:43:44"
+ },
+ "fox_duel_1": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 0.99,
+  "instruction": "严肃，放慢。",
+  "chars": 14,
+  "bytes": 32357,
+  "at": "2026-11-13 09:43:46"
+ },
+ "mage_empty_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.08,
+  "instruction": "松一口气，带喘息。",
+  "chars": 11,
+  "bytes": 27655,
+  "at": "2026-11-13 09:39:36"
+ },
+ "mage_empty_1": {
+  "voice": "libai_v3.1",
+  "rate": 1.08,
+  "instruction": "松一口气，带喘息。",
+  "chars": 10,
+  "bytes": 27969,
+  "at": "2026-11-13 09:39:38"
+ },
+ "rogue_empty_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.9,
+  "instruction": "松一口气，带喘息。",
+  "chars": 13,
+  "bytes": 30320,
+  "at": "2026-11-13 09:55:03"
+ },
+ "rogue_empty_1": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 0.9,
+  "instruction": "松一口气，带喘息。",
+  "chars": 5,
+  "bytes": 16841,
+  "at": "2026-11-13 09:55:06"
+ },
+ "raven_lastCard_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.882,
+  "instruction": "压低声音，挑衅。",
+  "chars": 16,
+  "bytes": 32984,
+  "at": "2026-11-13 09:45:45"
+ },
+ "raven_lastCard_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.882,
+  "instruction": "压低声音，挑衅。",
+  "chars": 16,
+  "bytes": 23267,
+  "at": "2026-11-13 09:45:47"
+ },
+ "raven_cornered_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.924,
+  "instruction": "硬撑，逞强。",
+  "chars": 12,
+  "bytes": 16057,
+  "at": "2026-11-13 09:45:49"
+ },
+ "raven_cornered_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.924,
+  "instruction": "硬撑，逞强。",
+  "chars": 7,
+  "bytes": 11041,
+  "at": "2026-11-13 09:45:51"
+ },
+ "raven_grudge_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.773,
+  "instruction": "阴沉，缓慢。",
+  "chars": 18,
+  "bytes": 41291,
+  "at": "2026-11-13 09:45:55"
+ },
+ "raven_grudge_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.773,
+  "instruction": "阴沉，缓慢。",
+  "chars": 9,
+  "bytes": 22640,
+  "at": "2026-11-13 09:45:58"
+ },
+ "raven_witness_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.798,
+  "instruction": "压低，克制。",
+  "chars": 14,
+  "bytes": 22013,
+  "at": "2026-11-13 09:46:02"
+ },
+ "raven_witness_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.798,
+  "instruction": "压低，克制。",
+  "chars": 13,
+  "bytes": 20132,
+  "at": "2026-11-13 09:46:04"
+ },
+ "raven_opening_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.798,
+  "instruction": "从容，随意。",
+  "chars": 14,
+  "bytes": 22640,
+  "at": "2026-11-13 09:46:06"
+ },
+ "raven_tension_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.907,
+  "instruction": "催促，提高音量。",
+  "chars": 15,
+  "bytes": 21072,
+  "at": "2026-11-13 09:46:10"
+ },
+ "raven_duel_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.756,
+  "instruction": "严肃，放慢。",
+  "chars": 11,
+  "bytes": 36432,
+  "at": "2026-11-13 09:46:14"
+ },
+ "raven_duel_1": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.756,
+  "instruction": "严肃，放慢。",
+  "chars": 11,
+  "bytes": 40037,
+  "at": "2026-11-13 09:46:17"
+ },
+ "boar_lastCard_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.008,
+  "instruction": "压低声音，挑衅。",
+  "chars": 12,
+  "bytes": 19505,
+  "at": "2026-11-13 09:49:01"
+ },
+ "boar_lastCard_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.008,
+  "instruction": "压低声音，挑衅。",
+  "chars": 8,
+  "bytes": 11355,
+  "at": "2026-11-13 09:49:03"
+ },
+ "boar_cornered_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.056,
+  "instruction": "硬撑，逞强。",
+  "chars": 10,
+  "bytes": 14176,
+  "at": "2026-11-13 09:49:04"
+ },
+ "boar_cornered_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.056,
+  "instruction": "硬撑，逞强。",
+  "chars": 12,
+  "bytes": 14176,
+  "at": "2026-11-13 09:49:07"
+ },
+ "boar_grudge_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.883,
+  "instruction": "阴沉，缓慢。",
+  "chars": 9,
+  "bytes": 21856,
+  "at": "2026-11-13 09:49:09"
+ },
+ "boar_grudge_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.883,
+  "instruction": "阴沉，缓慢。",
+  "chars": 13,
+  "bytes": 49285,
+  "at": "2026-11-13 09:49:12"
+ },
+ "boar_witness_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.912,
+  "instruction": "压低，克制。",
+  "chars": 9,
+  "bytes": 13549,
+  "at": "2026-11-13 09:49:15"
+ },
+ "boar_witness_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.912,
+  "instruction": "压低，克制。",
+  "chars": 7,
+  "bytes": 11982,
+  "at": "2026-11-13 09:49:18"
+ },
+ "boar_opening_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.912,
+  "instruction": "从容，随意。",
+  "chars": 14,
+  "bytes": 20446,
+  "at": "2026-11-13 09:49:21"
+ },
+ "boar_tension_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 1.037,
+  "instruction": "催促，提高音量。",
+  "chars": 15,
+  "bytes": 18565,
+  "at": "2026-11-13 09:49:23"
+ },
+ "boar_duel_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.864,
+  "instruction": "严肃，放慢。",
+  "chars": 13,
+  "bytes": 31417,
+  "at": "2026-11-13 09:49:25"
+ },
+ "boar_duel_1": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.864,
+  "instruction": "严肃，放慢。",
+  "chars": 13,
+  "bytes": 26401,
+  "at": "2026-11-13 09:49:27"
+ },
+ "cat_lastCard_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.218,
+  "instruction": "压低声音，挑衅。",
+  "chars": 12,
+  "bytes": 11512,
+  "at": "2026-11-13 09:52:01"
+ },
+ "cat_lastCard_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.218,
+  "instruction": "压低声音，挑衅。",
+  "chars": 10,
+  "bytes": 13549,
+  "at": "2026-11-13 09:52:03"
+ },
+ "cat_cornered_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.276,
+  "instruction": "硬撑，逞强。",
+  "chars": 10,
+  "bytes": 11825,
+  "at": "2026-11-13 09:52:05"
+ },
+ "cat_cornered_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.276,
+  "instruction": "硬撑，逞强。",
+  "chars": 6,
+  "bytes": 7750,
+  "at": "2026-11-13 09:52:08"
+ },
+ "cat_grudge_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.067,
+  "instruction": "阴沉，缓慢。",
+  "chars": 7,
+  "bytes": 23110,
+  "at": "2026-11-13 09:52:09"
+ },
+ "cat_grudge_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.067,
+  "instruction": "阴沉，缓慢。",
+  "chars": 9,
+  "bytes": 28909,
+  "at": "2026-11-13 09:52:12"
+ },
+ "cat_witness_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.102,
+  "instruction": "压低，克制。",
+  "chars": 14,
+  "bytes": 24050,
+  "at": "2026-11-13 09:52:15"
+ },
+ "cat_witness_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.102,
+  "instruction": "压低，克制。",
+  "chars": 6,
+  "bytes": 11041,
+  "at": "2026-11-13 09:52:17"
+ },
+ "cat_opening_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.102,
+  "instruction": "从容，随意。",
+  "chars": 15,
+  "bytes": 15273,
+  "at": "2026-11-13 09:52:19"
+ },
+ "cat_tension_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.253,
+  "instruction": "催促，提高音量。",
+  "chars": 13,
+  "bytes": 11668,
+  "at": "2026-11-13 09:52:21"
+ },
+ "cat_duel_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.044,
+  "instruction": "严肃，放慢。",
+  "chars": 15,
+  "bytes": 25775,
+  "at": "2026-11-13 09:52:25"
+ },
+ "cat_duel_1": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.044,
+  "instruction": "严肃，放慢。",
+  "chars": 15,
+  "bytes": 33611,
+  "at": "2026-11-13 09:52:29"
+ },
+ "fox_signature_0": {
+  "voice": "huozhuoshi_v3.1",
+  "rate": 1.1,
+  "instruction": "请用年轻、油滑、带笑意的语气说，像在跟人打趣耍滑头，句尾语气略微上扬。",
+  "chars": 10,
+  "bytes": 14019,
+  "at": "2026-11-18 16:09:11"
+ },
+ "raven_signature_0": {
+  "voice": "anmingyuan_v3.1",
+  "rate": 0.84,
+  "instruction": "请用低沉、冷淡、几乎没有感情的语气说，语速缓慢，每句话结尾往下沉，句间停顿明显。",
+  "chars": 9,
+  "bytes": 22013,
+  "at": "2026-11-18 16:09:15"
+ },
+ "boar_signature_0": {
+  "voice": "xunanchuan_v3.1",
+  "rate": 0.96,
+  "instruction": "请用朴实、憨厚、有点笨拙的语气说，像老实巴交的人。请用东北话表达。",
+  "chars": 10,
+  "bytes": 12922,
+  "at": "2026-11-18 16:09:18"
+ },
+ "cat_signature_0": {
+  "voice": "qiaoxiaojiao_v3.1",
+  "rate": 1.16,
+  "instruction": "请用明亮、俏皮、略带撒娇的语气说，像小女孩在耍小聪明，语调活泼。",
+  "chars": 9,
+  "bytes": 12922,
+  "at": "2026-11-18 16:09:21"
+ },
+ "mage_signature_0": {
+  "voice": "libai_v3.1",
+  "rate": 1.2,
+  "instruction": "苍老男性，平淡。",
+  "chars": 13,
+  "bytes": 23737,
+  "at": "2026-11-18 16:09:23"
+ },
+ "rogue_signature_0": {
+  "voice": "longxiaobai_v3.1",
+  "rate": 1.0,
+  "instruction": "成熟女性，低沉，随意。",
+  "chars": 7,
+  "bytes": 11982,
+  "at": "2026-11-18 16:09:26"
+ }
+}

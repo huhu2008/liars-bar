@@ -1,0 +1,12 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 }, deviceScaleFactor: 1 });
+await p.goto('http://localhost:5183/', { waitUntil: 'networkidle' });
+await p.getByRole('button', { name: /入座/ }).click();
+await p.waitForSelector('canvas');
+await p.waitForTimeout(2500);
+await p.screenshot({ path: '/tmp/f1.png' });
+await p.waitForTimeout(900);
+await p.screenshot({ path: '/tmp/f2.png' });
+await b.close();
+console.log('captured');

@@ -1,0 +1,21 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+await p.goto('http://localhost:5183/?turn=60000', { waitUntil: 'networkidle' });
+await p.waitForTimeout(1500);
+await p.getByText('老法师·奥登').click();
+await p.waitForTimeout(800);
+await p.getByRole('button', { name: /入座/ }).first().click();
+await p.waitForSelector('canvas');
+await p.waitForFunction(() => !!window.__STORE__);
+await p.waitForTimeout(12000);
+await p.screenshot({ path: '/tmp/mage-table.png' });
+const seats = await p.evaluate(() => {
+  const g = window.__STORE__.getState().game;
+  return g.players.map(x => `${x.seat}:${x.name.slice(0,6)}`);
+});
+console.log('座位:', seats.join(' | '));
+console.log('错误:', errs.length ? errs[0] : '无');
+await b.close();

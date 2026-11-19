@@ -1,0 +1,15 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const audioReqs = [];
+p.on('request', r => { if (/\.mp3$/.test(r.url())) audioReqs.push(r.url().split('/').pop()); });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+await p.goto('http://localhost:5183/', { waitUntil: 'networkidle' });
+await p.waitForTimeout(3000);
+const sfx = audioReqs.filter(u => !u.includes('fox_') && !u.includes('raven_'));
+console.log('进选角页后预加载的音效:', sfx.length, '个');
+console.log('列表:', [...new Set(sfx)].slice(0, 12).join(', '));
+console.log('语音是否被预加载:', audioReqs.some(u => /fox_|raven_/.test(u)) ? '是（不应该）' : '否 ✅（按需）');
+console.log('错误:', errs.length ? errs[0] : '无');
+await b.close();

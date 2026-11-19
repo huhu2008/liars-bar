@@ -1,0 +1,15 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.connectOverCDP('http://127.0.0.1:9224');
+const ctx = b.contexts()[0];
+const p = ctx.pages().filter(x => !x.url().startsWith('devtools'))[0];
+const logs = [];
+p.on('console', m => logs.push(`[${m.type()}] ${m.text().slice(0, 160)}`));
+p.on('pageerror', e => logs.push(`[pageerror] ${e.message.slice(0, 160)}`));
+p.on('requestfailed', r => logs.push(`[failed] ${r.url().slice(0, 80)} :: ${r.failure()?.errorText}`));
+await p.reload({ waitUntil: 'domcontentloaded' });
+await p.waitForTimeout(6000);
+const html = await p.evaluate(() => document.getElementById('root')?.innerHTML.length ?? -1);
+console.log('root 内容长度:', html);
+console.log('日志:');
+logs.slice(0, 12).forEach(l => console.log(' ', l));
+await b.close();

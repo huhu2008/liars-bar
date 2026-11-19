@@ -1,0 +1,17 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
+await p.goto('http://localhost:5183/?turn=500', { waitUntil: 'networkidle' });
+await p.getByRole('button', { name: /入座/ }).click();
+await p.waitForSelector('canvas');
+await p.waitForFunction(() => !!window.__STORE__);
+await p.waitForTimeout(90000);
+const v = await p.evaluate(() => (window.__VOICE__ || []).map(x => x.text));
+const situational = v.filter(t => /最后一张|就剩这一张|就剩它了|只剩|翻吧|翻开吧|翻就翻|又盯上我|太显眼|记住我|记性太好|咋老被|又是俺|老是我|针对我|行吧，看牌|看清楚了|没退路/.test(t));
+console.log('总台词:', v.length);
+console.log('情境台词:', situational.length, situational.slice(0, 6));
+console.log('错误:', errs.length ? errs.slice(0,2) : '无');
+await b.close();

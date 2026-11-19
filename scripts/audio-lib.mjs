@@ -1,0 +1,20 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
+await p.goto('http://localhost:5183/', { waitUntil: 'networkidle' });
+await p.waitForTimeout(1200);
+await p.getByRole('button', { name: /原声集/ }).first().click();
+await p.waitForTimeout(600);
+const info = await p.evaluate(() => {
+  const d = document.querySelector('[aria-label="原声集 曲目列表"]');
+  if (!d) return null;
+  const btns = [...d.querySelectorAll('button')].map(b => b.textContent?.trim() ?? '');
+  return { rows: d.querySelectorAll('button').length, sample: btns.slice(0, 5) };
+});
+console.log('音频库打开:', info ? '✅' : '❌', JSON.stringify(info?.sample));
+await p.screenshot({ path: '/tmp/audio-lib.png' });
+console.log('错误:', errs.length ? errs[0] : '无');
+await b.close();

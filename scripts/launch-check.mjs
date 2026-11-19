@@ -1,0 +1,13 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+p.on('console', m => { if (m.type() === 'error') errs.push(m.text().slice(0, 120)); });
+await p.goto('http://localhost:5183/', { waitUntil: 'networkidle' });
+await p.waitForTimeout(2500);
+const chars = await p.evaluate(() => ['狐','鸦','猪','猫','法','浪'].filter(g => document.body.innerText.includes(g)));
+await p.screenshot({ path: '/tmp/launch.png' });
+console.log('角色:', chars.join(' '));
+console.log('错误:', errs.length ? errs.slice(0, 2) : '无');
+await b.close();

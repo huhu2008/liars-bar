@@ -1,0 +1,392 @@
+/* 酒馆名册的底图位于内容之外，滚动时不干扰右侧预览和弹窗。 */
+
+.roster-screen {
+  position: relative;
+  isolation: isolate;
+  height: 100dvh;
+  overflow: auto;
+  overflow-x: hidden;
+  color: #ecdfc6;
+  background: #110c09;
+}
+
+.roster-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center 40%;
+  opacity: .19;
+}
+
+.roster-shell {
+  position: relative;
+  width: min(1160px,100%);
+  margin: auto;
+  padding: 0 28px 34px;
+}
+
+.roster-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 100px;
+  border-bottom: 1px solid #80623d80;
+}
+
+.roster-brand,.roster-tools {
+  display: flex;
+  align-items: center;
+}
+
+.roster-tools {
+  gap: 7px;
+}
+
+.roster-brand {
+  gap: 14px;
+}
+
+.roster-brand-mark {
+  display: grid;
+  place-items: center;
+  width: 41px;
+  height: 51px;
+  border: 1px solid #b99a61;
+  border-radius: 3px;
+  color: #dfc28c;
+  font: 35px/1 Georgia,serif;
+  box-shadow: inset 0 0 0 3px #1b100a,inset 0 0 0 4px #655039;
+  transform: rotate(-6deg);
+}
+
+.roster-brand p {
+  margin-bottom: 3px;
+  font: 600 10px/1 Georgia,serif;
+  letter-spacing: .23em;
+  color: #d3b180;
+}
+
+.roster-brand h1,.roster-list-title,.roster-card-name,.roster-profile-name,.roster-stage-label strong {
+  font-family: "Songti SC","Noto Serif CJK SC",serif;
+}
+
+.roster-brand h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: .13em;
+  line-height: 1.15;
+}
+
+.roster-layout {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(310px,.46fr);
+  align-items: start;
+  gap: 26px;
+  padding: 25px 0;
+}
+
+.roster-list-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #eedec5;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  margin: 0 0 15px;
+}
+
+.roster-list-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg,#85694280,transparent);
+}
+
+.roster-cards {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 15px 13px;
+}
+
+.roster-card {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  text-align: left;
+  border: 1px solid #81654680;
+  border-radius: 4px;
+  background: linear-gradient(115deg,#37261b,#21160f 75%);
+  box-shadow: 0 5px 12px #0006;
+  color: #f0e3ce;
+  transition: border-color .16s ease,background-color .16s ease;
+}
+
+.roster-card:hover:enabled {
+  border-color: #b59b6a;
+}
+
+.roster-card:focus-visible {
+  outline: 2px solid #fff0c6;
+  outline-offset: 3px;
+}
+
+.roster-card[aria-pressed=true] {
+  border-color: #e0b56e;
+  box-shadow: 0 0 0 1px #dfac6290,0 5px 12px #0006;
+}
+
+.roster-card-picture {
+  position: relative;
+  aspect-ratio: 1.25;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 35%,#4a3527,#22160f 76%);
+}
+
+.roster-card-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.roster-selected {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  background: #2c2116eb;
+  border: 1px solid #ad8a54;
+  border-radius: 2px;
+  color: #f8d694;
+  font-size: 10px;
+  padding: 1px 5px;
+}
+
+.roster-card-caption {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px;
+  border-top: 1px solid #70553788;
+  padding: 12px 10px;
+}
+
+.roster-card-name {
+  font-weight: 700;
+  font-size: clamp(14px,1.25vw,19px);
+  white-space: nowrap;
+}
+
+.roster-card-trait {
+  font-size: 11px;
+  white-space: nowrap;
+  color: #d7b98b;
+}
+
+.roster-detail-panel {
+  overflow: hidden;
+  border: 1px solid #85684088;
+  border-radius: 5px;
+  background: linear-gradient(130deg,#2b1d14,#18110d 72%);
+  box-shadow: 0 10px 32px #08050380;
+}
+
+.roster-stage {
+  height: 232px;
+  position: relative;
+  background: #150c07;
+  border-bottom: 1px solid #8c6a4280;
+}
+
+.roster-stage-model {
+  position: absolute;
+  inset: 0;
+}
+
+.roster-stage-label {
+  display: none;
+}
+
+.roster-profile {
+  padding: 15px 17px;
+}
+
+.roster-profile-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.roster-profile p {
+  color: #cdbda8;
+}
+
+.roster-dock {
+  display: none;
+}
+
+@media(min-width:1024px) and (max-height:800px) {
+  .roster-header {
+    min-height: 80px;
+  }
+  .roster-layout {
+    padding: 18px 0;
+  }
+  .roster-stage {
+    height: 175px;
+  }
+  .roster-profile {
+    padding: 12px 16px;
+  }
+}
+
+/* 窄屏预览固定在可滚动名册上缘，换选下排人物时仍能看清招牌动作。 */
+
+@media(max-width:1023px) {
+  .roster-screen {
+    scroll-padding: 145px 0 70px;
+  }
+  .roster-shell {
+    max-width: 700px;
+    padding: 0 14px calc(84px + env(safe-area-inset-bottom));
+  }
+  .roster-header {
+    min-height: 70px;
+  }
+  .roster-brand {
+    gap: 7px;
+  }
+  .roster-brand-mark {
+    width: 26px;
+    height: 34px;
+    font-size: 23px;
+  }
+  .roster-brand h1 {
+    font-size: 20px;
+  }
+  .roster-brand p {
+    font-size: 8px;
+  }
+  .roster-tools {
+    gap: 4px;
+  }
+  .roster-tools>button {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .roster-layout {
+    grid-template-columns: minmax(0,1fr);
+    gap: 14px;
+    padding: 12px 0;
+  }
+  .roster-detail,.roster-detail-panel {
+    display: contents;
+  }
+  .roster-stage {
+    grid-row: 1;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    height: 142px;
+    background: linear-gradient(110deg,#332217,#150c07 60%);
+    border: 1px solid #765a3a;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .roster-stage-label {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 18px;
+    pointer-events: none;
+  }
+  .roster-stage-label strong {
+    font-size: 19px;
+    color: #f2e2c7;
+  }
+  .roster-stage-label span {
+    font-size: 11px;
+    color: #d1b48f;
+  }
+  .roster-stage-model {
+    left: 39%;
+  }
+  .roster-list {
+    grid-row: 2;
+  }
+  .roster-list-title {
+    font-size: 18px;
+    margin-bottom: 9px;
+  }
+  .roster-cards {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 10px;
+  }
+  .roster-card-picture {
+    aspect-ratio: 1.25;
+  }
+  .roster-card-caption {
+    padding: 8px;
+  }
+  .roster-card-trait {
+    font-size: 10px;
+  }
+  .roster-profile {
+    background: #241911;
+    border: 1px solid #71573b;
+    border-radius: 4px;
+  }
+  .roster-dock {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #82643f;
+    background: #1b120ef5;
+    padding: 8px 14px max(8px,env(safe-area-inset-bottom));
+  }
+  .roster-dock p {
+    font-size: 11px;
+    color: #ffc1a8;
+  }
+  .roster-dock button {
+    max-width: 672px;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media(max-width:355px) {
+  .roster-tools {
+    gap: 2px;
+  }
+  .roster-brand-mark {
+    display: none;
+  }
+  .roster-stage {
+    height: 116px;
+  }
+  .roster-card-caption {
+    padding: 6px;
+  }
+  .roster-shell {
+    padding-inline: 10px;
+  }
+  .roster-stage-label {
+    padding-left: 11px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  .roster-card {
+    transition: none;
+  }
+}

@@ -1,0 +1,15 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const errs = [];
+p.on('pageerror', e => errs.push(e.message));
+await p.goto('http://localhost:5183/', { waitUntil: 'networkidle' });
+await p.waitForTimeout(1300);
+console.log('选角页有原声集入口:', (await p.getByRole('button', { name: /原声集/ }).count()) > 0 ? '✅' : '❌');
+await p.screenshot({ path: '/tmp/ost-entry.png' });
+await p.getByRole('button', { name: /原声集/ }).click();
+await p.waitForTimeout(600);
+console.log('点击后打开:', (await p.evaluate(() => !!document.querySelector('[aria-label="原声集 曲目列表"]'))) ? '✅' : '❌');
+await p.screenshot({ path: '/tmp/ost-open.png' });
+console.log('错误:', errs.length ? errs[0] : '无');
+await b.close();

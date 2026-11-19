@@ -1,0 +1,50 @@
+# ── 依赖与构建产物 ──
+node_modules/
+apps/web/dist/
+dist-minified-backup/
+android/app/build/
+android/build/
+android/.gradle/
+*.tsbuildinfo
+
+# ── 打包产物（用 pnpm dist:* 现打，不入库）──
+release/
+*.dmg
+*.apk
+*.zip
+
+# ── 系统与编辑器 ──
+.DS_Store
+*.log
+.vite/
+.idea/
+.vscode/
+*.swp
+
+# ── 本地密钥与配置 ──
+.env
+.env.local
+*.keystore
+*.jks
+
+# ── 原始模型备份（体积大，本地保留）──
+raw-models/
+
+# ── 角色模型的旧迭代版本 ──
+# 代码只用 seated/*-table-v5、preview/*-art-v2、hands/*-grip-v5，
+# 其余 v1~v4 是调整过程中的中间产物，本地留着，不入库。
+apps/web/public/assets/models/characters/seated/*-table-v2.glb
+apps/web/public/assets/models/characters/seated/*-table-v3.glb
+apps/web/public/assets/models/characters/seated/*-table-v4.glb
+apps/web/public/assets/models/characters/seated/*-chair.glb
+apps/web/public/assets/models/characters/preview/*-art-v1.glb
+apps/web/public/assets/models/hands/*-grip-v2.glb
+apps/web/public/assets/models/hands/*-grip-v3.glb
+apps/web/public/assets/models/hands/*-grip-v4.glb
+
+# ── 第三方工具与模型权重（体积巨大，本地保留）──
+.tools/
+
+# ── 调试截图（每次排查都会生成，不入库）──
+shots/
+tmp/

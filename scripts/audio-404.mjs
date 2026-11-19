@@ -1,0 +1,13 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true });
+const p = await b.newPage({ viewport: { width: 1280, height: 820 } });
+const bad = [], errs = [];
+p.on('response', r => { if (r.url().includes('vo-qwen') && r.status() >= 400) bad.push(`${r.status()} ${r.url().split('/').pop()}`); });
+p.on('pageerror', e => errs.push(e.message));
+await p.goto('http://localhost:5183/?turn=500', { waitUntil: 'networkidle' });
+await p.getByRole('button', { name: /入座/ }).click();
+await p.waitForSelector('canvas');
+await p.waitForTimeout(70000);
+console.log('音频 404:', bad.length ? bad.slice(0, 5) : '无 ✓');
+console.log('页面错误:', errs.length ? errs.slice(0, 2) : '无 ✓');
+await b.close();

@@ -1,0 +1,35 @@
+appId: com.liarsbar.game
+productName: 骗子酒馆
+copyright: Liar's Bar
+directories:
+  output: release
+  buildResources: build
+files:
+  - desktop/**/*
+  - apps/web/dist/**/*
+  - package.json
+asar: true
+compression: maximum
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+  artifactName: ${productName}-${version}-win-${arch}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: 骗子酒馆
+mac:
+  target:
+    - target: dmg
+      arch: [arm64, x64]
+  category: public.app-category.games
+  artifactName: ${productName}-${version}-mac-${arch}.${ext}
+linux:
+  target: [AppImage]
+  category: Game
+  artifactName: ${productName}-${version}-linux-${arch}.${ext}
