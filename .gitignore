@@ -48,3 +48,6 @@ apps/web/public/assets/models/hands/*-grip-v4.glb
 # ── 调试截图（每次排查都会生成，不入库）──
 shots/
 tmp/
+
+# ── 内部开发产物 ──
+tasks/

@@ -1,134 +1,147 @@
-# 骗子酒馆 · Liar's Bar（Web / 3D）
+# 骗子酒馆 · Liar's Bar
 
-一款「隐藏信息 + 心理博弈」的多人牌桌游戏，浏览器直接玩。界面为 3D 桌面（三.js），
-开局先选角色，每回合有 30 秒计时，所有关键节点都有角色语音播报。
+一款「隐藏信息 + 心理博弈」的 3D 多人牌桌游戏。浏览器打开即玩，也可打包成 macOS / Android 应用。
 
-## 视角与操作
+**核心循环**：每人 5 张牌，轮流声明自己出了几张某个点数，可以撒谎。被质疑就翻牌验证，出假牌的一方要拿起左轮对自己开一枪——空枪继续玩，实弹出局。
 
-- **第一人称坐席**：镜头在你眼睛的高度（1.16），你坐在桌沿，牌桌就在眼前。
-- **转头**：按住画面左右拖动可以看旁边的客人（不拖就只能看到正前方）。
-- **手牌**：真扇形 —— 每张牌以**底边中点为支点**旋转，底边一张压着一张，只有顶部按角度张开（相邻 12.6°），右侧压左侧，所以每张牌左上角的点数和花色都露得出来。点牌选中（最多 3 张），再点「出牌」。
-- **神态**：模型自带骨骼动画——平时待机呼吸，轮到他端着枪，被抓包有受击反应，中弹倒地。
+<p>
+  <a href="https://huhu2008.github.io/liars-bar/"><strong>▶ 在线游玩</strong></a>
+  ·
+  <a href="#快速开始">本地运行</a>
+  ·
+  <a href="#打包安装">下载安装包</a>
+</p>
 
-## 物理与动画
+## 特性
 
-- **牌是真的刚体**（Rapier）：出牌时从出牌者手里飞出去、落地、滑行、压成一堆；翻牌时摊在桌面正前方。
-  牌被锁定为「只能在桌面内旋转」，所以永远不会竖着立起来挡视线。
-- **发牌动画**：每轮开始，牌从牌堆飞向每个座位，落桌后再由静态牌堆接管。
-- **俄罗斯轮盘**：被执行的那个角色会抬起手臂、把左轮顶在自己头上，扣扳机时枪口闪光 + 点光源爆闪；
-  中弹的会后仰倒下，空枪的会放下来。
-- **你自己被罚时**：镜头不转（转也看不到自己），改成第一人称 —— 一把左轮从画面右下方抬起来顶住你的头。
-- 结算时镜头会自动转向受罚者并拉近（FOV 55 → 32），同时手牌按比例缩小保持屏幕尺寸不变。
+- **真 3D 牌桌**：第一人称坐席，拖拽转头看旁边的客人，牌是真刚体（Rapier 物理），出牌会飞出去、落地、压成一堆
+- **六个角色**：狡狐、鸦先生、屠夫、小猫、老法师、浪人，各有独立的性格参数、看牌破绽和 15 个场景的台词
+- **494 条语音**：千问 TTS 生成，按场景区分语气——质疑时短促、记仇时阴沉、决斗时放慢，同一角色语速跨度 2~5 倍
+- **原声集**：游戏内可直接试听全部音效和台词，像一张 OST
+- **三端可跑**：Web（浏览器）/ macOS（Electron）/ Android（Capacitor）
+- **纯 TS 规则引擎**：与渲染完全解耦，96 个单测覆盖整场对局、双向结算、弹仓递增、视图不泄漏
 
-物理与动画参数集中在 `src/three/constants.ts` / `PhysCard.tsx` / `Animal.tsx` 的 `useFrame` 时间轴里。
+## 快速开始
 
-## 玩法（当前实现）
+需要 Node.js ≥ 20 和 pnpm。
 
-| 环节 | 规则 |
+```bash
+git clone https://github.com/huhu2008/liars-bar.git
+cd liars-bar
+pnpm install
+pnpm dev
+```
+
+打开 http://localhost:5183
+
+## 玩法
+
+1. 选一个角色入座，桌上共 4 人
+2. 每轮开局指定一个点数，之后每人轮流打出 1~3 张牌，声明「我出的是这个点数」
+3. 可以撒谎，但下家可以点「质疑」
+4. 被质疑后翻牌验证：
+   - 出牌者说的是真话 → 质疑者受罚
+   - 出牌者撒谎 → 出牌者受罚
+5. 受罚者拿起左轮对自己开一枪，弹仓 6 格逐格递增：空枪继续，实弹出局
+6. 最后活着的人获胜
+
+**牌组**：Q × 6 + K × 6 + A × 6 + 赖子 × 2 = 20 张，4 人各 5 张。赖子可以当任意点数。
+
+**每回合 30 秒**，超时自动托管。
+
+## 技术栈
+
+| 层 | 技术 |
 |---|---|
-| 人数 | **2–6 人可选**，座位随人数重排；你 + N-1 个 AI 对手 |
-| 手牌 | 每人 5 张，52 张牌堆，不够就重洗弃牌堆 |
-| 每轮 | 随机一个**目标点数**，每人轮流扣 1–3 张牌，声明「全是这一点」 |
-| 回应 | 下家二选一：继续加牌 / **质疑** |
-| 结算 | 翻牌：全是真的 → 质疑者受罚；有假 → 出牌者受罚 |
-| 受罚 | 俄罗斯轮盘，6 弹仓，空枪后子弹 +1（1/6 → 2/6 → …） |
-| 淘汰 | 中弹出局，存活者进入下一轮 |
-| 结束 | 只剩一人 |
+| 规则引擎 | 纯 TypeScript，无运行时依赖 |
+| 前端 | React 19 + Vite 6 |
+| 3D 渲染 | three.js r187 + @react-three/fiber 9 + drei 10 |
+| 物理 | @dimforge/rapier |
+| 状态管理 | zustand |
+| 桌面打包 | Electron + electron-builder |
+| 移动打包 | Capacitor 7 |
+| 测试 | Vitest + Playwright |
 
-**计时**：自己回合 30 秒，超时自动托管（桌上有牌就自动质疑，否则自动出一张）。
-`?turn=4000` 可把计时缩短到 4 秒，方便验证超时链路。
-
-## 模型：真实 glTF 骨骼动画
-
-角色外观来自**低模拟人角色**（Poly Pizza，CC0 为主，法师为 CC-BY；见 `apps/web/public/models/LICENSE.md`），
-每个模型自带骨骼动画（Idle / Walk / Gallop / Attack / HitReact / Death），
-由 `AnimalModel.tsx` 按情绪状态切换：
-
-| 游戏状态 | 播放的动画 |
-|---|---|
-| 平时 | `Idle` |
-| 思考中（轮到它） | `Idle_Gun_Pointing` / `Idle_Gun` |
-| 被抓包（撒谎） | `HitRecieve_2` / `HitRecieve` |
-| 赢了 | `Idle_Weapon` |
-| 中弹 | `Death` |
-
-技术要点（都是踩过的坑）：
-- 蒙皮模型的包围球不跟随骨骼更新，会被视锥剔除 → 必须 `frustumCulled = false`；
-- 各模型建模尺度差 3 倍多，且运行时算 bbox 会因矩阵未更新而失准 → 缩放与落地偏移
-  由 GLB 里的 POSITION min/max **离线算出**，写死在 `models.ts`；
-- 动画名不统一（raccoon 带三重 `AnimalArmature|` 前缀）→ 用后缀匹配。
-
-## 角色：人物 + 性格
-
-五个可选角色，性格不是装饰——`personality.aggression / lieBias` 会直接喂给 AI 的
-`chooseAction`，所以「剑客」真的更爱撒谎、「法师」真的更爱抓人：
-
-| 角色 | 职业 | 性格 | 狡诈 | 多疑 |
-|---|---|---|---|---|
-| 剑客·维克斯 | 剑士 | 奸诈 | 92 | 58 |
-| 快手·拾三 | 盗贼 | 惯偷 | 76 | 40 |
-| 兜帽人 | 无名之客 | 沉默 | 84 | 46 |
-| 快刀·艾拉 | 刺客 | 阴森 | 94 | 32 |
-| 老法师·巴顿 | 法师 | 审慎 | 22 | 94 |
-
-模型全部由基础几何 + 车削面程序化拼出（无任何外部模型/贴图文件）：分层的毛色、
-内外耳、带高光和瞳孔的眼睛、眉毛、胡须、马甲与扣子、尾巴。
-
-## 语音节点（谁说哪句）
-
-语音走浏览器原生 `speechSynthesis`（中文音色，零素材、离线可用），每个角色有独立
-pitch/rate，同一角色音色保持一致。节点 → 台词的映射在 `src/store.ts` 的 `speakEvents`：
-
-| 引擎事件 | 说话人 | 内容示例 |
-|---|---|---|
-| `ROUND_START` | 旁白 | 第 3 轮。点数 K。 |
-| `PLAYED` | 出牌角色 | 这些，都是 K。 |
-| `CHALLENGED` | 质疑角色 | 我不信。 |
-| `REVEALED` | 出牌角色 + 旁白 | 哎呀，手滑。／他撒谎了。 |
-| `SHOT` | 旁白 + 受罚角色 | 砰！／空枪。 |
-| `GAME_END` | 旁白 + 获胜角色 | 面具人 是最后一个活着的人。 |
-
-所有播报都会写入 `window.__VOICE__`，自动化测试据此核对节点覆盖。
-右上角「🔊 语音 / 🔇 静音」可随时关闭。
-
-## 工程结构
+## 项目结构
 
 ```
 liars-bar/
-├─ packages/engine/          # 纯 TS 规则引擎，前后端共用，零框架依赖
-│  ├─ src/types.ts           # 状态 / 命令 / 事件 / 视图类型（单一事实源）
-│  ├─ src/reducer.ts         # applyCommand：唯一的状态变更入口
-│  ├─ src/project.ts         # 完整状态 → 某座位视角（隐藏手牌的闸门）
-│  ├─ src/ai.ts              # 机器人策略（只用手牌 + 公开信息）
-│  └─ test/engine.spec.ts    # 16 条规则测试
-├─ apps/web/
-│  ├─ src/three/             # 3D：桌面、卡牌、角色低模、场景
-│  ├─ src/components/        # 选角页、结算弹窗、计时环
-│  ├─ src/data/characters.ts # 4 个可选角色（配色/台词/音色）
-│  ├─ src/voice/voice.ts     # 语音会话层（队列 + 看门狗）
-│  └─ src/store.ts           # 状态机驱动：机器人、计时、语音节点
-└─ scripts/                  # 浏览器冒烟测试、WebGL 能力探针
+├─ packages/engine/          纯 TS 规则引擎
+│  ├─ src/reducer.ts         状态机：createGame / applyCommand
+│  ├─ src/view.ts            project()：裁剪对手手牌，只留张数
+│  └─ src/*.test.ts          96 个单测
+├─ apps/web/                 前端
+│  ├─ src/three/             3D 场景：牌桌、角色、物理、枪
+│  ├─ src/audio/             统一音频模块（音效 + 语音 + 原声集）
+│  ├─ src/components/        UI：选角页、设置、原声集、结算面板
+│  ├─ src/store.ts           zustand store + 事件链
+│  └─ public/                静态资源（模型 / 语音 / 贴图）
+├─ desktop/                  Electron 主进程
+├─ android/                  Capacitor 生成的 Android 工程
+└─ scripts/                  构建、排查、冒烟测试脚本
 ```
 
-关键设计：**服务端权威的雏形已经就位** —— 客户端只发意图，视图一律经过 `project()`
-裁剪，别人的手牌永远只有张数。接联机时把 `applyCommand` 搬进 Node 即可，前端不用改。
+**设计要点**：客户端只发意图，视图一律经过 `project()` 裁剪。接联机时把 `applyCommand` 搬到 Node 端即可，前端不用改。
 
-## 命令
+## 开发命令
 
 ```bash
-pnpm install
-pnpm dev                 # 开发服务器 http://localhost:5183
-pnpm test                # 引擎单测（vitest）
-pnpm build               # 生产构建（3D 栈已拆成按需 chunk）
-node scripts/ui-smoke.mjs      # 浏览器冒烟：选角→出牌→质疑→结算→超时托管
-node scripts/webgl-probe.mjs   # WebGL 能力探针（renderer / fps / 贴图）
+pnpm dev                 # 开发服务器
+pnpm build               # 生产构建
+pnpm test                # 引擎单测
+pnpm typecheck           # 类型检查
+pnpm desktop             # Electron 窗口运行
 ```
 
-## 当前状态
+排查脚本（都带浏览器自动化，输出 PASS/FAIL）：
 
-- ✅ 规则引擎 + 16 条单测（含整场对局、双向结算、弹仓递增、视图不泄漏）
-- ✅ 3D 桌面：可旋转缩放、点牌选牌、发牌/翻牌插值、角色低模
-- ✅ 选角页（4 角色）+ 机器人
-- ✅ 回合计时 + 超时托管 + 节点语音
-- ✅ 浏览器自动化冒烟（截图 + 语音记录 + 零控制台错误）
-- ⏳ 联机（Socket.IO 房间、断线重连）：`applyCommand` 已就绪，差传输层
+```bash
+node scripts/audit-all.mjs      # 全面排查：资源、六角色、完整对局、存档恢复
+node scripts/audit-flow.mjs     # 流程排查：人数、设置、重开、换角色
+python3 scripts/audit-scenes.py # 语音场景区分度检查
+node scripts/shot-electron.mjs  # 打包后的 app 截图验证
+```
+
+## 打包安装
+
+```bash
+# macOS（输出到 release/）
+pnpm dist:mac
+
+# Windows / Linux
+pnpm dist:win
+pnpm dist:linux
+
+# Android APK
+npx cap sync android
+cd android && ./gradlew assembleRelease
+```
+
+macOS 首次打开会被 Gatekeeper 拦（无 Apple 开发者证书），需在「系统设置 → 隐私与安全性」点「仍要打开」。
+
+## 音频说明
+
+语音由 [阿里云百炼 Qwen-Audio-TTS](https://help.aliyun.com/zh/model-studio/qwen-audio-tts-voice-list) 生成，脚本在 `scripts/gen-vo-qwen.py`。
+
+```bash
+python3 scripts/gen-vo-qwen.py --only mage --force   # 重录某个角色
+```
+
+需要 `.env.local` 里有 `DASHSCOPE_API_KEY`。
+
+音频分三层：
+- **音效**：11 个（发牌、翻牌、开枪、空枪、计时滴答…）
+- **环境音**：酒馆底噪，说话时自动压低
+- **角色语音**：494 条，按场景分包
+
+场景语气表在 `scripts/gen-vo-qwen.py` 的 `SCENE_MOOD`，改完重录即可。
+
+## 已知限制
+
+- **没有联机**：目前是本地对局 + AI 对手。`applyCommand` 已就绪，差传输层
+- **触屏未真机验证**：桌面用鼠标调过，手机上的点击区域可能偏小
+- **首次加载较慢**：模型和语音约 98MB，建议用宽带
+
+## 许可证
+
+MIT
